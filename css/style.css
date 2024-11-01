@@ -534,7 +534,17 @@ footer .credit a {
   }
 }
 
-.modal-container .close-icon {
+.modal-container .close-icon-1 {
+  position: absolute;
+  right: 1rem;
+}
+
+.modal-container .close-icon-2 {
+  position: absolute;
+  right: 1rem;
+}
+
+.modal-container .close-icon-3 {
   position: absolute;
   right: 1rem;
 }

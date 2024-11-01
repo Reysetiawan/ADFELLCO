@@ -43,18 +43,42 @@ document.addEventListener("click", function (e) {
 
 // Modal Box
 const itemDetailModal = document.querySelector("#item-detail-modal");
-const itemDetailButtons = document.querySelectorAll(".item-detail-button");
+const itemDetailButtons = document.querySelector(".item-detail-button");
 
-itemDetailButtons.forEach((btn) => {
-  btn.onclick = (e) => {
-    itemDetailModal.style.display = "flex";
-    e.preventDefault();
-  };
-});
+itemDetailButtons.onclick = (e) => {
+  itemDetailModal.style.display = "flex";
+  e.preventDefault();
+};
+
+const itemDetailModal2 = document.querySelector("#item-detail-modal-2");
+const itemDetailButtons2 = document.querySelector(".item-detail-button-2");
+
+itemDetailButtons2.onclick = (e) => {
+  itemDetailModal2.style.display = "flex";
+  e.preventDefault();
+};
+
+const itemDetailModal3 = document.querySelector("#item-detail-modal-3");
+const itemDetailButtons3 = document.querySelector(".item-detail-button-3");
+
+itemDetailButtons3.onclick = (e) => {
+  itemDetailModal3.style.display = "flex";
+  e.preventDefault();
+};
 
 // klik tombol close modal
-document.querySelector(".modal .close-icon").onclick = (e) => {
+document.querySelector(".modal .close-icon-1").onclick = (e) => {
   itemDetailModal.style.display = "none";
+  e.preventDefault();
+};
+
+document.querySelector(".modal .close-icon-2").onclick = (e) => {
+  itemDetailModal2.style.display = "none";
+  e.preventDefault();
+};
+
+document.querySelector(".modal .close-icon-3").onclick = (e) => {
+  itemDetailModal3.style.display = "none";
   e.preventDefault();
 };
 
