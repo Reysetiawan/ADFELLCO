@@ -1117,14 +1117,7 @@ footer .credit a {
     height: 100%;
     margin-left: -7.5%;
   }
-  .card {
-    width: 100%;
-    height: 8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
+
 
   /* for all social containers*/
   .socialContainer {
@@ -1266,6 +1259,3 @@ footer .credit a {
     flex-wrap: wrap;
   }
 }
-
-
-
