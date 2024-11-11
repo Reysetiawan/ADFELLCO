@@ -645,10 +645,10 @@ footer .credit a {
   position: relative;
   background-color: #fefefe;
   color: var(--bg);
-  margin: 10% auto;
-  padding: 1.2rem;
+  margin: 10%;
+  padding: 1rem;
   border: 2px solid #666;
-  height: 400px;
+  height: 450px;
   max-width: 80%;
   animation: animateModal 0.5s;
   border-radius: 8px;
@@ -746,7 +746,6 @@ footer .credit a {
 }
 
 /* Shadow layer */
-
 
 /* Edge layer */
 .button .edge {
@@ -1257,4 +1256,5 @@ footer .credit a {
     flex-wrap: wrap;
   }
 }
+
 
