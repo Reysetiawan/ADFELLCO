@@ -1124,7 +1124,6 @@ footer .credit a {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
   }
 
   /* for all social containers*/
@@ -1267,4 +1266,5 @@ footer .credit a {
     flex-wrap: wrap;
   }
 }
+
 
