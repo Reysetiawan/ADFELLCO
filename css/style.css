@@ -575,10 +575,10 @@ strong {
 .contact .row {
   align-items: center;
   justify-items: center;
-  border: 1px solid #fffefe;
+  border: 1px solid #a50000;
   display: inline-flexbox;
   margin-top: 2rem;
-  background-color: #b10101;
+  background-color: #a50000;
 }
 
 .contact .row .map {
